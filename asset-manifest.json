@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/timelineResume/static/css/main.8f372694.css",
+    "main.js": "/timelineResume/static/js/main.c95e54bc.js",
+    "static/js/787.e097d17b.chunk.js": "/timelineResume/static/js/787.e097d17b.chunk.js",
+    "static/media/school.svg": "/timelineResume/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "static/media/work.svg": "/timelineResume/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "index.html": "/timelineResume/index.html",
+    "main.8f372694.css.map": "/timelineResume/static/css/main.8f372694.css.map",
+    "main.c95e54bc.js.map": "/timelineResume/static/js/main.c95e54bc.js.map",
+    "787.e097d17b.chunk.js.map": "/timelineResume/static/js/787.e097d17b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f372694.css",
+    "static/js/main.c95e54bc.js"
+  ]
+}
