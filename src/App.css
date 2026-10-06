@@ -12,8 +12,9 @@
   --accent-surface-deep: #a5b88a;
   --accent-ink: #17231d;
   --on-accent: #17231d;
-  --deep: #192820;
-  --deep-ink: #f4f1e8;
+  --deep: #dfe7d8;
+  --deep-ink: #17231d;
+  --deep-glow: #ffffff;
 }
 
 :root[data-theme="dark"] {
@@ -30,6 +31,7 @@
   --on-accent: #132019;
   --deep: #14211a;
   --deep-ink: #eef1eb;
+  --deep-glow: #9bb27e;
 }
 
 * { box-sizing: border-box; }
@@ -99,8 +101,8 @@ em { font-family: "Newsreader", Georgia, serif; font-weight: 500; }
 .experience-section {
   background-color: var(--deep);
   background-image:
-    radial-gradient(circle at 78% 10%, color-mix(in srgb, var(--accent) 8%, transparent), transparent 34%),
-    radial-gradient(circle at 20% 80%, color-mix(in srgb, white 3%, transparent) 0 1px, transparent 1.5px);
+    radial-gradient(circle at 78% 10%, color-mix(in srgb, var(--deep-glow) 16%, transparent), transparent 34%),
+    radial-gradient(circle at 20% 80%, color-mix(in srgb, var(--deep-ink) 5%, transparent) 0 1px, transparent 1.5px);
   background-size: 100% 100%, 8px 8px;
   color: var(--deep-ink);
 }
